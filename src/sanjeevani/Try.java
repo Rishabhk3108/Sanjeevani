@@ -10,12 +10,12 @@ import java.awt.Color;
  *
  * @author rishabh sharma
  */
-public class Home extends javax.swing.JFrame {
+public class Try extends javax.swing.JFrame {
 
     /**
      * Creates new form Home
      */
-    public Home() {
+    public Try() {
         initComponents();
     }
 
@@ -1001,7 +1001,7 @@ public class Home extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Home().setVisible(true);
+                new Try().setVisible(true);
             }
         });
     }
